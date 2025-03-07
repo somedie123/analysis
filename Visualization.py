@@ -1,10 +1,3 @@
-
----
-
-## **4. Python Code: `analyze_data.py`**  
-This script **loads the data, analyzes it, and plots a graph**.  
-
-```python
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -32,5 +25,4 @@ plt.xticks(rotation=45)
 plt.legend()
 plt.grid(True, linestyle="--", alpha=0.7)
 
-# Show the plot
 plt.show()
